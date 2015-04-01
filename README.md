@@ -8,7 +8,7 @@ name, so for the sake of the example, we want to make sure your test is unique**
 1. Fork this repo, and clone it
 1. Install mocha globally ``npm install -g mocha``
 1. Follow [installation](https://github.com/webdriverio/webdrivercss#install) notes for all the dependencies
-1. Login to (Shoov)[http://shoov.gizra.com] and follow instructions to get your access token
+1. Login to (Shoov)[http://shoov.gizra.com] and copy/ paste the code from on the My account page, in order to get your access token
 1. ``npm install``
 
 ## Providers
