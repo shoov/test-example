@@ -11,6 +11,8 @@ name, so for the sake of the example, we want to make sure your test is unique**
 1. Login to (Shoov)[http://shoov.gizra.com] and copy/ paste the code from on the My account page, in order to get your access token
 1. ``npm install``
 
+Note that currently the Pull Request functionality isn't deployed yet.
+
 ## Providers
 
 For local testing use phantomJs ``phantomjs --webdriver=4444``
