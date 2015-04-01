@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "shoov-webdrivercss": "0.0.1",
+    "webdrivercss": "^1.0.6"
+  }
+}
