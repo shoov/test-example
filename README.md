@@ -3,6 +3,8 @@
 **Don't clone this repo, but fork it - as Shoov is aware to the repository
 name, so for the sake of the example, we want to make sure your test is unique**
 
+Shoov is still in early stages so be gentle. Or contribute a PR.
+
 ![shoov_gizra_com__code_3a94afa481685398b62e__screenshots_12](https://cloud.githubusercontent.com/assets/125707/6941980/c5bb62d0-d88c-11e4-8e78-75ba19896f27.png)
 
 
