@@ -43,6 +43,8 @@ export SAUCE_ACCESS_KEY=<your user>
 
 ``mocha`` will tests all the files under the ``test`` folder.
 
+After a regression was found check your [Builds](http://shoov.gizra.com/#/builds) page
+
 # Credits
 
 [Gizra](http://gizra.com)
