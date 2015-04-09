@@ -17,8 +17,6 @@ Remember that Shoov is still in early stages so be gentle. Or contribute a PR.
 1. Follow [installation](https://github.com/webdriverio/webdrivercss#install) notes for WebdriverCss
 1. ``npm install``
 
-Note that currently the Pull Request functionality isn't deployed yet, but ``download`` button is working creating a Zip in the _client side_.
-
 ## Providers
 
 For local testing use phantomJs ``phantomjs --webdriver=4444``
