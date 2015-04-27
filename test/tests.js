@@ -28,7 +28,9 @@ var capsConfig = {
 
 var selectedCaps = process.env.SELECTED_CAPS;
 var caps = selectedCaps ? capsConfig[selectedCaps] : undefined;
-var testName = selectedCaps || 'default';
+
+var providerPrefix = process.env.PROVIDER_PREFIX || '';
+var testName = providerPrefix + '-' + selectedCaps || providerPrefix + '-' + 'default';
 
 describe('Search engine tests', function() {
 
