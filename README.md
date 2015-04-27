@@ -25,16 +25,16 @@ Otherwise you can use BrowserStack or Sauce Labs:
 
 ```bash
 # Set BrowserStack keys
-export BROWSERSTACK_USERNAME=<my user>
-export BROWSERSTACK_KEY=<your user>
+export BROWSERSTACK_USERNAME=<username>
+export BROWSERSTACK_KEY=<token>
 ```
 
 OR
 
 ```bash
 # Set Suace Labs keys
-export SAUCE_USERNAME=<my user>
-export SAUCE_ACCESS_KEY=<your user>
+export SAUCE_USERNAME=<username>
+export SAUCE_ACCESS_KEY=<token>
 ```
 
 # Usage
