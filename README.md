@@ -41,7 +41,20 @@ export SAUCE_ACCESS_KEY=<token>
 
 ``mocha`` will tests all the files under the ``test`` folder.
 
-After a regression was found check your [Builds](http://shoov.gizra.com/#/builds) page
+The example file shows how a single test file can be executed under multiple platforms and browsers. Assuming we are using browserstack, this can be executed by passing the environment argument like this:
+
+```bash
+# Execute the tests using the ie11 config.
+PROVIDER_PREFIX=browserstack SELECTED_CAPS=ie11 mocha
+
+# Execute the tests using the chrome on Mac config.
+PROVIDER_PREFIX=browserstack SELECTED_CAPS=chrome mocha
+
+# Execute the tests with the default capabilities provided by the `shoov-webdrivercss` library.
+mocha
+```
+
+After a regression was found check your [Builds](http://shoov.gizra.com/#/builds) page, or go directly to the link indicated by the failing Mocha test.
 
 # Credits
 

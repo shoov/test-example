@@ -2,13 +2,13 @@
 
 var shoovWebdrivercss = require('shoov-webdrivercss');
 
-// This is an example assuming BrowserStack is used, as the capabilites is
-// encoded in the way their platform is using.
+// This is an example assuming BrowserStack is used, as the capabilities are
+// encoded in the way their system is using.
 // See https://www.browserstack.com/automate/node
 
-// This can be executed by passing the enviorement argument like this.
-// SELECTED_CAPS=ie11 mocha
-// SELECTED_CAPS=chrome mocha
+// This can be executed by passing the environment argument like this:
+// PROVIDER_PREFIX=browserstack SELECTED_CAPS=ie11 mocha
+// PROVIDER_PREFIX=browserstack SELECTED_CAPS=chrome mocha
 var capsConfig = {
   'chrome': {
     'browser' : 'Chrome',
