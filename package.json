@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "shoov-webdrivercss": "^0.0.4"
+    "shoov-webdrivercss": "~0.0.5"
   }
 }
