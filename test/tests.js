@@ -26,11 +26,11 @@ var capsConfig = {
   }
 }
 
-var selectedCaps = process.env.SELECTED_CAPS;
+var selectedCaps = process.env.SELECTED_CAPS || undefined;
 var caps = selectedCaps ? capsConfig[selectedCaps] : undefined;
 
-var providerPrefix = process.env.PROVIDER_PREFIX || '';
-var testName = providerPrefix + '-' + selectedCaps || providerPrefix + '-' + 'default';
+var providerPrefix = process.env.PROVIDER_PREFIX ? process.env.PROVIDER_PREFIX + '-' : '';
+var testName = selectedCaps ? providerPrefix + selectedCaps : providerPrefix + 'default';
 
 describe('Search engine tests', function() {
 
