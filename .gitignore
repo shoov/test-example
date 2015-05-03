@@ -1,3 +1,4 @@
 node_modules
-webdrivercss/diff
-webdrivercss/*.regression.png
+# Include only baseline images
+webdrivercss/*
+!webdrivercss/*.baseline.png
