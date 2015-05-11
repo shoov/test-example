@@ -11,7 +11,7 @@ Remember that Shoov is still in early stages so be gentle. Or contribute a PR.
 
 # Installation
 
-1. Login to [Shoov](http://shoov.gizra.com/#/login) and copy/ paste the code from on the My account page, in order to get your access token
+1. Login to [Shoov](http://shoov.io) and copy/ paste the code from on the `My account` page, in order to get your access token
 1. Fork this repo, and clone it
 1. Install mocha globally ``npm install -g mocha``
 1. Follow [installation](https://github.com/webdriverio/webdrivercss#install) notes for WebdriverCss
