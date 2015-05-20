@@ -15,7 +15,7 @@ Remember that Shoov is still in early stages so be gentle. Or contribute a PR.
 1. Fork this repo, and clone it
 1. Install mocha globally ``npm install -g mocha``
 1. Follow [installation](https://github.com/webdriverio/webdrivercss#install) notes for WebdriverCss
-1. ``npm install``
+1. ``cd test-example && npm install``
 
 ## Providers
 
