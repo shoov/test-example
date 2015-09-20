@@ -64,4 +64,14 @@ describe('Search engine tests', function() {
       .call(done);
 
   });
+
+  it('should show the Facebook main search page',function(done) {
+    client
+      .url('https://facebook.com/')
+      .webdrivercss(testName, {
+        name: 'facebook'
+      }, shoovWebdrivercss.processResults)
+      .call(done);
+
+  });
 });
